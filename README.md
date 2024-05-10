@@ -3,9 +3,10 @@
 Use this project to search Google Trends website for downloading the frequency or usage of keywords (search terms) that
 are of your interest (max 5 at a time).
 
+Even though `pytrends` package can do similar tasks, my problem is something different and therefore I quickly built this project to solve it. Please modify the code as per your need.
+
 ### Note:
 
-- This is a project built very quickly as per my requirement. So, please modify as per your need.
 - The resolution of trends searched will be at <u>city</u> level
 - The <u>Include low search volume regions</u> checkbox will be selected by default
 - If you don't want the driver browser in action, then in the file `src/scrape_gtrends.py` uncomment the line: _# options.add_argument('--headless')_ 
